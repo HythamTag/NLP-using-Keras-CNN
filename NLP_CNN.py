@@ -1,5 +1,3 @@
-import nltk
-
 import pandas as pd
 import numpy as np
 import re
@@ -14,7 +12,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LeakyReLU
-
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
 
